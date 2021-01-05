@@ -8,17 +8,17 @@ calculated on a graph. Check screenshots below.
 
 ## Screenshots
 ![Home Page](/documents/screenshots/home-page.png) <br />
-** Home Page "index.html" ** <br />
+**Home Page "index.html"** <br />
 ![Generate Form](/documents/screenshots/generate-form.png) <br />
-** Generate Form Page "generate_form.html" ** <br />
+**Generate Form Page "generate_form.html"** <br />
 ![Generate Form AAPL](/documents/screenshots/generate-form-aapl.png) <br />
-** Generate Form with fields "generate_form.html" ** <br />
+**Generate Form with fields "generate_form.html"** <br />
 ![Results Page AAPL](/documents/screenshots/results-page-aapl.png) <br />
-** Results using dynamic graph from Highcharts "result_form.html" ** <br />
+**Results using dynamic graph from Highcharts "result_form.html"** <br />
 ![Generate Form NIO](/documents/screenshots/generate-form-nio.png) <br />
-** Generate Form. Using fields that will result in error "generate_form.html" ** <br />
+**Generate Form. Using fields that will result in error "generate_form.html"** <br />
 ![Error Page NIO](/documents/screenshots/error-page-nio.png) <br />
-** Error Form from previous screenshot's fields "error_form.html" ** <br />
+**Error Form from previous screenshot's fields "error_form.html"** <br />
 
 ## Dependencies & Other Technology
 ### Client - Frontend/UI
@@ -35,10 +35,10 @@ calculated on a graph. Check screenshots below.
 ##IEX Cloud
 Before running as a java application. Make sure to enter in your
 IEX Cloud API Token/Key. <br />
-In '/src/main/java/com.stockcalendar.formpage/iex/IEXApi' <br />
+In '''shell /src/main/java/com.stockcalendar.formpage/iex/IEXApi''' <br />
 Enter in your token in for data member 'public final static String token' <br />
 
-** For IEX Cloud: ** When you sign up for IEX Cloud and claim your
+**For IEX Cloud:** When you sign up for IEX Cloud and claim your
 token. Make sure that sandbox is turned on. It is just a switch to flip
 on while you are on your user dashboard. <br />
 
