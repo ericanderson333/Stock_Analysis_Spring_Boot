@@ -1,0 +1,11 @@
+label {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    text-align: left;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+}

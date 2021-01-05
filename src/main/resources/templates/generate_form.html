@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Thymeleaf Stock Form</title>
+    <style type="text/css">
+        label {
+            display: inline-block;
+            width: 200px;
+            margin: 5px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div align="center">
+    <h1>Stock Entry</h1>
+    <form action="#" th:action="@{/results}" th:object="${StockDto}" method="post">
+        <label>Ticker Symbol: </label>
+        <input type="text" th:field="*{ticker}"> <br/>
+
+        <label>Starting Date (MM-dd): </label>
+        <input type="text" th:field="*{startDate}"> <br/>
+
+        <label>Ending Date (MM-dd): </label>
+        <input type="text" th:field="*{endDate}"> <br/>
+
+        <button type="submit">Create</button>
+    </form>
+
+</body>
+</html>
