@@ -38,7 +38,7 @@ calculated on a graph. Check screenshots below.
 ### API
 * **IEX Cloud** - Used for pulling stock data. [Click Here for IEX Docs](https://iexcloud.io/docs/api/)
 
-##IEX Cloud
+## IEX Cloud
 Before running as a java application. Make sure to enter in your
 IEX Cloud API Token/Key. <br />
 In '</src/main/java/com.stockcalendar.formpage/iex/IEXApi>' <br />
@@ -48,8 +48,8 @@ Enter in your token in for data member 'public final static String token' <br />
 token. Make sure that sandbox is turned on. It is just a switch to flip
 on while you are on your user dashboard. <br />
 
-##Additional Info
-In your 'application.properties' file, don't worry about any configurations.
+## Additional Info
+In your ' application.properties ' file, don't worry about any configurations.
 Only property I had to set was 'DEBUG'. However that was just during applcation
 development. <br />
 
@@ -57,7 +57,7 @@ CSS & JS files are written seperate. However, while using Intellij Community IDE
 you have to attach all CSS and JS into html document. Which is already embedded into 
 the files. <br />
 
-##Contact
+## Contact
 Phone: (971) 708-4444<br />
 Email: ericsanderson333@gmail.com<br />
 Linkedin: https://www.linkedin.com/in/ericanderson333 <br />
