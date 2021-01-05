@@ -49,7 +49,7 @@ token. Make sure that sandbox is turned on. It is just a switch to flip
 on while you are on your user dashboard. <br />
 
 ## Additional Info
-In your '\ application.properties /' 
+In your: 'application.properties' <br />
 file, don't worry about any configurations.
 Only property I had to set was 'DEBUG'. However that was just during applcation
 development. <br />
