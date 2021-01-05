@@ -41,7 +41,7 @@ calculated on a graph. Check screenshots below.
 ## IEX Cloud
 Before running as a java application. Make sure to enter in your
 IEX Cloud API Token/Key. <br />
-In '</src/main/java/com.stockcalendar.formpage/iex/IEXApi>' <br />
+In '/src/main/java/com.stockcalendar.formpage/iex/IEXApi' <br />
 Enter in your token in for data member 'public final static String token' <br />
 
 **For IEX Cloud:** When you sign up for IEX Cloud and claim your
@@ -49,8 +49,7 @@ token. Make sure that sandbox is turned on. It is just a switch to flip
 on while you are on your user dashboard. <br />
 
 ## Additional Info
-In your: 'application.properties' <br />
-file, don't worry about any configurations.
+In your: 'application.properties' file, don't worry about any configurations.
 Only property I had to set was 'DEBUG'. However that was just during applcation
 development. <br />
 
